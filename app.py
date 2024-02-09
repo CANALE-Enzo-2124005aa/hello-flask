@@ -4,5 +4,5 @@ app = Flask(__name__)
 def hello_world():
  return 'Hello, World!'
 @app.route('/malex')
-def hello_world():
- return 'Hello, World!'
+def malex():
+ return 'Hello, Worldddd!'
